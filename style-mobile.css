@@ -1,0 +1,101 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        background-image: url(https://github.com/fred0128/desktop-template-1.4/blob/main/images/main.png?raw=true);
+        background-position: center;
+        background-size: 300% 100%;
+    }
+    .main-box {
+        width: 100%;
+    }
+    .search-box {
+        width: 90%;
+    }
+    .button-box {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5%;
+    }
+    #right-arrow-ch:checked .right-arrow-open {
+        bottom: 60px;
+    }
+    .right-arrow-open {
+        align-self: flex-end;
+        justify-self: flex-end;
+        position: relative;
+        bottom: 40px;
+    }
+    .button-box svg {
+        width: 22px;
+    }
+    .top-right {
+        gap: 10px;
+    }
+    .battery-info {
+        width: 192px;
+        height: auto;
+        border-radius: 4px;
+    }
+    .button-item:hover p {
+        font-size: 14px;
+    }
+    #mydiv {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 300px;
+        height: 300px;
+        z-index: 9;
+        background-color: #222;
+        background-color: #222;
+        color: #fff;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+        padding: 10px 0 10px 0;
+        /*delete display: none;*/
+        display: none;
+    }
+    #mydivheader {
+        width: 95%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 4px 6px;
+        border-radius: 10px 10px 6px 6px;
+        width: 95%;
+    }
+    .save-box-main {
+        width: 95%;
+        height: 90%;
+        background-color: #333;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 6px 6px 10px 10px;
+    }
+    .save-box-main a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .ip-box {
+        position: absolute;
+        min-width: unset;
+        max-width: unset;
+        width: 90%;
+        top: unset;
+        bottom: 15%;
+        left: 50%;
+        height: fit-content;
+        transform: translateX(-50%);
+        padding: 20px 10px;
+    }
+}
